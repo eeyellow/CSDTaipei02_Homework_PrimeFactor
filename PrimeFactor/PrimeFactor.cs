@@ -12,7 +12,14 @@ namespace VIVALACODE
     {
         public static int breakdown(int num)
         {
-            return 2;
+            if (num == 2)
+            {
+                return 2;
+            }
+            else
+            {
+                return 3;
+            }
         }
     }
 }
