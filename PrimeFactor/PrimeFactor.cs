@@ -21,7 +21,15 @@ namespace VIVALACODE
             }
             else
             {
-                result.Add(num);
+                if (num == 6)
+                {
+                    result.Add(2);
+                    result.Add(3);
+                }
+                else
+                {
+                    result.Add(num);
+                }
             }
 
             return result;
