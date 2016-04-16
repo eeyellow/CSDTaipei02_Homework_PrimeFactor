@@ -14,7 +14,15 @@ namespace VIVALACODE
         {
             List<int> result = new List<int>();
 
-            result.Add(num);
+            if (num == 4)
+            {
+                result.Add(2);
+                result.Add(2);
+            }
+            else
+            {
+                result.Add(num);
+            }
 
             return result;
         }
