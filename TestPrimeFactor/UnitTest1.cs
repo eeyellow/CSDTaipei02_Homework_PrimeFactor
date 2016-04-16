@@ -37,5 +37,11 @@ namespace VIVALACODE
         {
             CollectionAssert.AreEqual(new List<int> { 2, 3 }, PrimeFactor.breakdown(6));
         }
+
+        [TestMethod]
+        public void TestMethod7()
+        {
+            CollectionAssert.AreEqual(new List<int> { 7 }, PrimeFactor.breakdown(7));
+        }
     }
 }
