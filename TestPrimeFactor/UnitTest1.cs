@@ -9,6 +9,7 @@ namespace VIVALACODE
         [TestMethod]
         public void TestMethod1()
         {
+            Assert.AreEqual(2, PrimeFactor.breakdown(2));
         }
     }
 }
