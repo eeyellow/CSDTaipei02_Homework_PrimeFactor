@@ -10,16 +10,20 @@ namespace VIVALACODE
     /// </summary>
     public static class PrimeFactor
     {
-        public static int breakdown(int num)
+        public static List<int> breakdown(int num)
         {
+            List<int> result = new List<int>();
+
             if (num == 2)
             {
-                return 2;
+                result.Add(2);
             }
             else
             {
-                return 3;
+                result.Add(3);
             }
+
+            return result;
         }
     }
 }
