@@ -8,7 +8,11 @@ namespace VIVALACODE
     /// <summary>
     /// 質因數分解
     /// </summary>
-    public class PrimeFactor
+    public static class PrimeFactor
     {
+        public static int breakdown(int num)
+        {
+            return 2;
+        }
     }
 }
