@@ -14,26 +14,13 @@ namespace VIVALACODE
         {
             List<int> result = new List<int>();
 
-            while (num % 2 == 0 && num != 1)
+            for (int i = 2; i <= num; i++)
             {
-                result.Add(2);
-                num = num / 2;
-            }
-            while (num % 3 == 0 && num != 1)
-            {
-                result.Add(3);
-                num = num / 3;
-            }
-            while (num % 5 == 0 && num != 1)
-            {
-                result.Add(5);
-                num = num / 5;
-            }
-
-            while (num % 7 == 0 && num != 1)
-            {
-                result.Add(7);
-                num = num / 7;
+                while (num % i == 0 && num != 1)
+                {
+                    result.Add(i);
+                    num = num / i;
+                }
             }
 
             return result;
