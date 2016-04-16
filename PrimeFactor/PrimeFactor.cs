@@ -29,25 +29,13 @@ namespace VIVALACODE
                 result.Add(5);
                 num = num / 5;
             }
-            /*
-            if (num == 4)
+
+            while (num % 7 == 0 && num != 1)
             {
-                result.Add(2);
-                result.Add(2);
+                result.Add(7);
+                num = num / 7;
             }
-            else
-            {
-                if (num == 6)
-                {
-                    result.Add(2);
-                    result.Add(3);
-                }
-                else
-                {
-                    result.Add(num);
-                }
-            }
-            */
+
             return result;
         }
     }
